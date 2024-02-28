@@ -1,0 +1,5 @@
+import org.springframework.stereotype.*;--> Contains all the stereotype annotations like @Component @Service
+import org.springframework.beans.factory.annotation.*;--> Contains bean factory related annotations like @Autowired,@Qualifier
+import org.springframework.context.annotation.*;-->Contains the annotations starting from 100%code driven @Configuration,@ComponentScan,@Bean
+
+
