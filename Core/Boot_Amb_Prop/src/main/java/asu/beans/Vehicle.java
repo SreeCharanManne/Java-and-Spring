@@ -8,14 +8,14 @@ import org.springframework.beans.factory.annotation.Qualifier;
 public class Vehicle {
 
 	@Autowired
-	@Qualifier("DieselEngine")
+	@Qualifier("ChoosedEngine")
 	private Engine eng;
 
 	public Vehicle() {
 	}
 	
-    
-	public Vehicle(Engine eng) {
+    //@Autowired
+	public Vehicle( Engine eng) {
 		this.eng = eng;
 	}
 
